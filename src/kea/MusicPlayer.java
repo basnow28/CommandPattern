@@ -2,15 +2,14 @@ package kea;
 
 public class MusicPlayer
 {
-    public void startPlayback()
+    public void musicPlayerPlayCommand()
     {
-        System.out.println("Music start playing");
+        System.out.println("Music starts playing");
     }
 
-    public void pausePlayback()
+    public void musicPlayerStopCommand()
     {
-        System.out.println("Music pauses");
+        System.out.println("Music stops playing");
     }
 
 }
-
